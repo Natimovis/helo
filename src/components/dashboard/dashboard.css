@@ -1,0 +1,9 @@
+.dashComp {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-left: 20vw;
+}
+
+
