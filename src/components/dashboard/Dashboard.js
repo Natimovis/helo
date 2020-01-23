@@ -1,11 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Home from '../home/Home';
 import './dashboard.css';
 
 const Dashboard = (props) => {
-  const { loggedIn, posts } = props
+  const { loggedIn, posts, users } = props
+
+useEffect(() => {
+  console.log('users', users)
+  console.log('posts', posts)
+}, [])
 
   
   if (!loggedIn.id) {
@@ -24,6 +29,7 @@ const Dashboard = (props) => {
 }
 const mapStateToProps = (state) => {
   return {
+    users: state.R.users,
     posts: state.R.posts,
     loggedIn: state.R.loggedIn
   }

@@ -26,6 +26,7 @@ module.exports = {
     getUsers: async (req, res) => {
         const posts = await req.app.get('db').get_all_posts([req.session.user.id]);
         const userImg = await req.app.get('db').get_users()
+        console.log('prfctrljs30 res', res)
         return res.status(200).send({userImg, posts});
     }
 }
