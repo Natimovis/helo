@@ -1,9 +1,9 @@
 .Auth {
     width: 100vw;
     height: 100vh;
-    background-image: -webkit-linear-gradient(351deg, #ff70a6, #ff9770 40%, #ffd670 73%, #e9ff70);
-    background-image: -o-linear-gradient(351deg, #ff70a6, #ff9770 40%, #ffd670 73%, #e9ff70);
-    background-image: linear-gradient(99deg, #ff70a6, #ff9770 40%, #ffd670 73%, #e9ff70);
+    background-image: -webkit-linear-gradient(351deg, #0fb5f7, #64cffa 40%, #b8ebff 73%, #edfaff);
+    background-image: -o-linear-gradient(351deg, #0fb5f7, #64cffa 40%, #b8ebff 73%, #edfaff);
+    background-image: linear-gradient(99deg, #0fb5f7, #64cffa 40%, #b8ebff 73%, #edfaff);
     position: absolute;
     top: 0;
     left: 0;
@@ -20,9 +20,9 @@
     border-radius: 8px;
     -webkit-box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.25), 0 10px 10px 0 rgba(0, 0, 0, 0.26);
             box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.25), 0 10px 10px 0 rgba(0, 0, 0, 0.26);
-    background-image: -webkit-linear-gradient(353deg, #ff7a6e, #Ffd670);
-    background-image: -o-linear-gradient(353deg, #ff7a6e, #Ffd670);
-    background-image: linear-gradient(97deg, #ff7a6e, #Ffd670);
+    background-image: -webkit-linear-gradient(353deg, #2664ff, #d6e2ff);
+    background-image: -o-linear-gradient(353deg, #2664ff, #d6e2ff);
+    background-image: linear-gradient(97deg, #2664ff, #d6e2ff);
     width: 35vw;
     height: 55vh;
     display: -ms-flexbox;
@@ -49,7 +49,7 @@
   }
   
   .auth_input_box > input:focus {
-    outline-color: #ff9770;
+    outline-color: #64cffa;
     outline-width: 5px;
   }
   
